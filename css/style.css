@@ -1,0 +1,149 @@
+*{
+	margin : 0;
+	padding: 0;
+	color: #05273F
+}
+@keyframes gerak{
+    form{ transform: translateY(0); }
+    to{ transform: translateY(20px);;
+    }
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+.cover{
+	width: 100%;
+      height: calc(100vh);
+      background: url(../img/cover.jpg) no-repeat 50% 50%;
+      background-size: cover;
+      position: relative;
+}
+.profil{
+	width: 100%;
+	position: absolute;
+	top: -130px;
+}
+.kata{
+	position: absolute;
+	top: 60%;
+	right: 10%;
+	left: 10%;
+	color: white;
+	text-align: center;
+}
+.kata h2{
+	font-family: sans-serif;
+	margin-bottom: .5%
+}
+#biodata{
+	background-color: white;
+	padding: 8%;
+	text-align: center;
+}
+#pendidikan{
+	width: 100%;
+	height: auto;
+	background-color: #89a3b2;
+	padding-bottom: 4%;
+}
+#pendidikan h1{
+	text-align: center;
+	padding-top: .5%;
+	padding-bottom: 2%;
+}
+#pendidikan i{
+	text-align: center;
+	padding-top: 4%;
+	width: 100%;
+}
+.daftarsekolah{
+	width: 80%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+.daftarsekolah .kiri, .daftarsekolah .tengah, .daftarsekolah .tengah1, .daftarsekolah .kanan{
+	margin: 5px auto;
+	text-align: center;
+}
+#pendidikan .sd{
+	width: 21%
+}
+#pendidikan .mts{
+	width: 25%
+}
+#pendidikan .sma{
+	width: 31%
+}
+#pendidikan .sttg{
+	width: 26%
+}
+#skill{
+	background-color: white;
+	width: 100%;
+	height: auto;
+	padding-bottom: 15%;
+}
+.daftarskill{
+	margin: 0 auto;
+	width: 65%;
+}
+#skill .web{
+	display: grid;
+    grid-template-columns: 30% 70%;
+    row-gap: 4%;
+    column-gap: 10%;
+    text-align: left;
+}
+#skill .web section i{
+	text-align: right;
+	color :#ff6337
+}
+
+#skill .web section:hover i{
+	letter-spacing: 2px;
+	color: #6fc2d0;
+
+}
+#skill .web .bintang{
+	display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 15px;
+}
+#skill .web div h3{
+	display: grid;
+    grid-template-columns: 100%;
+    row-gap: 15px;
+    text-align: center;
+    border-bottom:  solid 1px black;
+}
+#skill h1{
+	text-align: center;
+	padding-top: 2%;
+	margin-bottom: 4%;
+} 
+.kontak{
+	width: 100%;
+	height: 150px;
+	position: -webkit- sticky;  
+	bottom: 0;
+	z-index: -1;
+	background-color: #202020;
+	color: white;
+	text-align: center;
+	padding-top: 2%;
+}
+.kontak h4, .kontak i, .kontak p{
+	color: white;
+}
+.kontak i{
+	padding: 1.5%;
+}
+
+#skill .web h1{
+	font-size: 125px;
+}
+#skill .web h1 i{
+	color:#0d3f67;
+}
